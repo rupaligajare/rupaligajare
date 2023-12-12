@@ -1,0 +1,92 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git init
+Reinitialized existing Git repository in C:/Users/rupal/OneDrive/Desktop/DevOps/.git/
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git add exp4.txt
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git status
+On branch b1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   exp1.txt
+        new file:   exp3.txt
+        new file:   exp4.txt
+
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git commit -m "hi"
+[b1 08dfc2d] hi
+ 3 files changed, 14 insertions(+), 2 deletions(-)
+ create mode 100644 exp3.txt
+ create mode 100644 exp4.txt
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git status
+On branch b1
+nothing to commit, working tree clean
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git log
+commit 08dfc2df2cadeb70c53f8f2592229d1d397a1ad7 (HEAD -> b1)
+Author: Rupali Gajaregit config --global user.name Rupali <rupaligajare507@gmail.com>
+Date:   Tue Dec 12 07:33:11 2023 +0530
+
+    hi
+
+commit 05006b7904be27c555ec3fcc77a5e01efd22e179 (fs/b1)
+Author: rupaligajare507@gmail.com <rupaligajare507@gmail.com>
+Date:   Thu Oct 5 09:26:44 2023 +0530
+
+    v3
+
+commit 3e35beec40201592e996fa78824d8b3561f7f746 (s/master, master)
+Author: rupaligajare507@gmail.com <rupaligajare507@gmail.com>
+Date:   Thu Oct 5 09:17:13 2023 +0530
+
+    v1
+
+commit 15bf245a86dbd0eb7142ab0726c613e9ad75ac79
+Author: rupaligajare507@gmail.com <rupaligajare507@gmail.com>
+Date:   Thu Oct 5 09:12:28 2023 +0530
+
+    hiii
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git branch
+* b1
+  master
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git bramch b1
+git: 'bramch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git checkout b1
+Already on 'b1'
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git checkout master
+Switched to branch 'master'
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git merge master
+Already up to date.
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git b1
+git: 'b1' is not a git command. See 'git --help'.
+
+The most similar commands are
+        am
+        gc
+        mv
+        p4
+        rm
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git checkout b1
+Switched to branch 'b1'
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git merge b1
+Already up to date.
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git remote add origin https://github.com/rupaligajare/experiment3.git
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> git push origin b1
+info: please complete authentication in your browser...
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (12/12), 1.00 KiB | 514.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'b1' on GitHub by visiting:
+remote:      https://github.com/rupaligajare/experiment3/pull/new/b1
+remote:
+To https://github.com/rupaligajare/experiment3.git
+ * [new branch]      b1 -> b1
+PS C:\Users\rupal\OneDrive\Desktop\DevOps> 
