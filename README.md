@@ -3,11 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rupaligajare&label=Profile%20views&color=0e75b6&style=flat" alt="rupaligajare" /> </p>
 
-- 🔭 I’m currently working on **Deep Learning**
+- 🔭 I’m currently working on **Web Development**
 
-- 🌱 I’m currently learning **Java,DSA,Linux,DBMS**
-
-- 💬 Ask me about **Java,C,Data Structure,Linux**
+- 🌱 My skills  **HTML, CSS, Java, DSA, JavaScript, SpringBoot, DBMS**
 
 - 📫 How to reach me **rupaligajare507@gmail.com**
 
