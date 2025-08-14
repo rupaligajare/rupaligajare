@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **rupaligajare507@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1yYqsA6rj1VA17vETbrIf-q85PX9nQNUo/view?usp=sharing](https://drive.google.com/file/d/1yYqsA6rj1VA17vETbrIf-q85PX9nQNUo/view?usp=sharing)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1XIPW_uvwWtK68D8kh7Qel2yBH-BwFWXX/view?usp=sharing].
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
