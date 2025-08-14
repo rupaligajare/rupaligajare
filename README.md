@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Web Development**
 
-- 🌱 My skills  **HTML, CSS, Java, DSA, JavaScript, SpringBoot, DBMS**
+- 🌱 My skills  **HTML, CSS, Java, DSA, JavaScript, SpringBoot, DBMS, Bootstrap, ReactJS**
 
 - 📫 How to reach me **rupaligajare507@gmail.com**
 
